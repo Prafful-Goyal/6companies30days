@@ -15,10 +15,6 @@ Given divisor1, divisor2, uniqueCnt1, and uniqueCnt2, return the minimum possibl
 */
 class Solution {
 public:
-    /*
-    T.C = O(LOG 10^10)
-    S.C = O(1)
-    */
     long gcd(long a,long b)
     {
         if((a%b)==0)
